@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HackerRank - Functional Programming", "HackerRank - Functional Programming.fsproj", "{7C4FBBE3-F6B8-4B04-9F4F-B3B4771F103B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "01 - Introduction", "01 - Introduction\01 - Introduction.fsproj", "{A8BF5AE6-950F-4C87-9757-EFD52DA3BFCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C4FBBE3-F6B8-4B04-9F4F-B3B4771F103B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4FBBE3-F6B8-4B04-9F4F-B3B4771F103B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4FBBE3-F6B8-4B04-9F4F-B3B4771F103B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4FBBE3-F6B8-4B04-9F4F-B3B4771F103B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BF5AE6-950F-4C87-9757-EFD52DA3BFCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BF5AE6-950F-4C87-9757-EFD52DA3BFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BF5AE6-950F-4C87-9757-EFD52DA3BFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BF5AE6-950F-4C87-9757-EFD52DA3BFCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 5f6507a5-7040-4f1e-b894-417f57d365f1
+	EndGlobalSection
+EndGlobal
