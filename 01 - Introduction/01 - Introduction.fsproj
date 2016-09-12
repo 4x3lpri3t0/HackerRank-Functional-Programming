@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a8bf5ae6-950f-4c87-9757-efd52da3bfcb</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>_01___Introduction</RootNamespace>
     <AssemblyName>_01___Introduction</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="Solve Me First FP.fs" />
-    <None Include="Script.fsx" />
+    <Compile Include="Hello World.fs" />
+    <Compile Include="Hello World Multiple.fs" />
+    <Compile Include="List Replication.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

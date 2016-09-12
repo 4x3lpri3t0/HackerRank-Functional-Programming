@@ -1,12 +1,9 @@
-﻿namespace _01___Introduction
-
+﻿module SolveMeFirst
 open System
 
-module SolveMeFirstFP =
-    type T = {A:int; B:int} with
-        member this.Sum =
-            this.A + this.B
-
-    // constructor
-    let create a b = 
-        {A=a; B=b}
+//[<EntryPoint>]
+let main argv = 
+    let a = Console.ReadLine() |> int
+    let b = Console.ReadLine() |> int
+    printfn "%d" (a+b)
+    0 // exit
